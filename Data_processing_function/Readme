@@ -1,1 +1,20 @@
 This file contains all data processing functions.
+
+Matlab functions:
+Weather variables from ERA5:
+ERA5_read.m was used to convert grib format data to tif format for better post-processing.
+daily_meteorologyVariable.m computes the daily average of a meteorology variables with the weight of population.
+
+SA variable (i.e. NO2):
+daily_pollution.m computes the daily average of NO2 concentration from Sentinel-5P level 2 product.
+
+Population density:
+PopCal.m estimates the population density of each administrative boundary.
+
+Data preprocessing:
+trim_err_rec.m can delete the dates or regions with poor data quality.
+
+Note that all the function is based on Matlab2018b.
+
+Stata function:
+reprod_fit.do is used to fit the panel regression model based on Stata16.0.
