@@ -1,1 +1,5 @@
+This file contains all the functions used in the study to estimate the reproductive number (equation 1 and 2). 
 
+C2Rmodel.m estimates the daily reproductive number from daily cumulative confirmed number.
+
+IR2Imodel.m estimates the infection number from daily infection number with a new daily reproductive number.
