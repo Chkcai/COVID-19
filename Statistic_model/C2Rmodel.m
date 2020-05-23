@@ -1,7 +1,7 @@
 function [this_data_delta,this_Infection,this_ratio]=C2Rmodel(data)
 %% 
 %This model estimates the daily reproductive number from daily cumulative 
-%confirmed nuber 
+%confirmed number 
 
 % Input
 % data:Daily cumulative confirmed number data(in a row/col);
